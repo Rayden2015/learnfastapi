@@ -1,6 +1,19 @@
-<html>
+<!---<html>
 <body>
-<!-- <h2>Hello World!</h2> -->
+<h2>Hello World!</h2> 
 <h2>Hello {{name}} Welcome to FastAPI</h2>
+</body>
+</html> -->
+
+<html>
+<head>
+<title>My Website</title>
+<script src="{{ url_for('static', path='hello.js') }}"></script>
+</head>
+<body onload="myFunction()">
+    <h2>Hello {{name}} Welcome to FastAPI</h2>
+    <img src="{{ url_for('static', path='fa.jpg') }}" alt="" width="300">
+<div id="time" style="text-align:right; width="100%"></div>
+<h1><div id="ttl">{{ name }}</div></h1>
 </body>
 </html>
