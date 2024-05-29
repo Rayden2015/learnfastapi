@@ -33,3 +33,4 @@ async def get_admin(user: User = Depends(validate_user)):
     get_db()
     return {"message": "Welcome, Admin!"}
 
+ 
