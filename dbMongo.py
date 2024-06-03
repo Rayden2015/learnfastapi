@@ -20,7 +20,7 @@ MONGO_PORT = "27017"  # e.g., "27017" (default MongoDB port)
 
 # Construct the MongoDB connection URI
 #MONGO_URI = f"mongodb://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_HOST}:{MONGO_PORT}"
-MONGO_URI = "mongodb+srv://nurundin2010:TK7rEzfKovE191Y7@testdb.pjrvppo.mongodb.net/?retryWrites=true&w=majority&appName=TestDB"
+
 
 class Book(BaseModel):
     bookID: int
